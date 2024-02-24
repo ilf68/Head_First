@@ -1,4 +1,4 @@
-package Primitives;
+package Part3_Primitives;
 
 class Triangle {
     double area;

@@ -1,4 +1,4 @@
-package Primitives;
+package Part3_Primitives;
 
 public class Hobbits {
     String name;

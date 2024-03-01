@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ed6d64-44f7-4c02-9f80-2ba25296c525" name="Changes" comment="Triangle">
-      <change afterPath="$PROJECT_DIR$/src/Part4_incapsulation/GoodDog.java" afterDir="false" />
+    <list default="true" id="f5ed6d64-44f7-4c02-9f80-2ba25296c525" name="Changes" comment="rename package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part3_Primitives/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/Hobbits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part3_Primitives/Hobbits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part3_Primitives/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +38,48 @@
   "keyToString": {
     "Application.BeerSong.executor": "Run",
     "Application.BookTestDrive.executor": "Run",
+    "Application.Clock$ClockTestDrive.executor": "Run",
     "Application.Execize1.executor": "Run",
     "Application.GoodDogTestDrive.executor": "Run",
     "Application.Hobbits.executor": "Run",
+    "Application.Mix4.executor": "Run",
     "Application.MyFirst.executor": "Run",
     "Application.PhraseOMatic.executor": "Run",
+    "Application.Puzzle4.executor": "Run",
+    "Application.SimpleDotCom.executor": "Run",
+    "Application.SimpleDotComGame.executor": "Run",
+    "Application.SimpleDotComTestDrive.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Triangle.executor": "Run",
+    "Application.XCopy.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Clock$ClockTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part4_incapsulation.Clock$ClockTestDrive" />
+      <module name="HerdFirstJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part4_incapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Clock$ClockTestDrive" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,12 +112,57 @@
       <option name="project" value="LOCAL" />
       <updated>1708768481077</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Инкапсуляция">
+      <option name="closed" value="true" />
+      <created>1708783916818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708783916819</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Упражнения(exesizes)">
+      <option name="closed" value="true" />
+      <created>1708793178078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708793178078</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Непонятная головоломка, мать её">
+      <option name="closed" value="true" />
+      <created>1709054870917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709054870917</updated>
+    </task>
+    <task id="LOCAL-00006" summary="set and get">
+      <option name="closed" value="true" />
+      <created>1709054939096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709054939096</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rename package">
+      <option name="closed" value="true" />
+      <created>1709054980925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709054980925</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Head-First-JAVA execizes" />
     <MESSAGE value="Triangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Triangle" />
+    <MESSAGE value="Инкапсуляция" />
+    <MESSAGE value="Упражнения(exesizes)" />
+    <MESSAGE value="Непонятная головоломка, мать её" />
+    <MESSAGE value="set and get" />
+    <MESSAGE value="rename package" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename package" />
   </component>
 </project>

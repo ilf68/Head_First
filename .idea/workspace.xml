@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ed6d64-44f7-4c02-9f80-2ba25296c525" name="Changes" comment="rename package">
+    <list default="true" id="f5ed6d64-44f7-4c02-9f80-2ba25296c525" name="Changes" comment="part 5 from HeadFirstJava">
+      <change afterPath="$PROJECT_DIR$/src/part6/DotCom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part6/DotComBust.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part6/GameHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/writing_programm_5/GameHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/writing_programm_5/SimpleDotCom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/writing_programm_5/SimpleDotComGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/writing_programm_5/SimpleDotComTestDrive.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,32 +41,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BeerSong.executor": "Run",
-    "Application.BookTestDrive.executor": "Run",
-    "Application.Clock$ClockTestDrive.executor": "Run",
-    "Application.Execize1.executor": "Run",
-    "Application.GoodDogTestDrive.executor": "Run",
-    "Application.Hobbits.executor": "Run",
-    "Application.Mix4.executor": "Run",
-    "Application.MyFirst.executor": "Run",
-    "Application.PhraseOMatic.executor": "Run",
-    "Application.Puzzle4.executor": "Run",
-    "Application.SimpleDotCom.executor": "Run",
-    "Application.SimpleDotComGame.executor": "Run",
-    "Application.SimpleDotComTestDrive.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Triangle.executor": "Run",
-    "Application.XCopy.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BeerSong.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookTestDrive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Clock$ClockTestDrive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DotComBust.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Execize1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoodDogTestDrive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hobbits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mix4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MixFor5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyFirst.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PhraseOMatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Puzzle4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleDotCom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleDotComGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleDotComTestDrive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.XCopy.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="writing_programm_5" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Clock$ClockTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part4_incapsulation.Clock$ClockTestDrive" />
@@ -152,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709054980925</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="part 5 from HeadFirstJava">
+      <option name="closed" value="true" />
+      <created>1709321133177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709321133177</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +186,7 @@
     <MESSAGE value="Непонятная головоломка, мать её" />
     <MESSAGE value="set and get" />
     <MESSAGE value="rename package" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename package" />
+    <MESSAGE value="part 5 from HeadFirstJava" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 5 from HeadFirstJava" />
   </component>
 </project>

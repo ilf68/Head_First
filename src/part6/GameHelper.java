@@ -28,11 +28,11 @@ public class GameHelper {
 
 
 
-    public ArrayList<String> placeDotCom(int comSize) {                 // line 19
+    public ArrayList<String> placeDotCom(int Comize) {                 // line 19
         ArrayList<String> alphaCells = new ArrayList<String>();
-        String [] alphacoords = new String [comSize];      // holds 'f6' type coords
+        String [] alphacoords = new String [Comize];      // holds 'f6' type coords
         String temp = null;                                // temporary String for concat
-        int [] coords = new int[comSize];                  // current candidate coords
+        int [] coords = new int[Comize];                  // current candidate coords
         int attempts = 0;                                  // current attempts counter
         boolean success = false;                           // flag = found a good location ?
         int location = 0;                                  // current starting location
@@ -48,7 +48,7 @@ public class GameHelper {
             //System.out.print(" try " + location);
             int x = 0;                                        // nth position in dotcom to place
             success = true;                                 // assume success
-            while (success && x < comSize) {                // look for adjacent unused spots
+            while (success && x < Comize) {                // look for adjacent unused spots
                 if (grid[location] == 0) {                    // if not already used
                     coords[x++] = location;                    // save location
                     location += incr;                          // try 'next' adjacent
@@ -69,7 +69,7 @@ public class GameHelper {
         int row = 0;
         int column = 0;
          System.out.println("\n");
-        while (x < comSize) {
+        while (x < Comize) {
             grid[coords[x]] = 1;                              // mark master grid pts. as 'used'
             row = (int) (coords[x] / gridLength);             // get row value
             column = coords[x] % gridLength;                  // get numeric column value

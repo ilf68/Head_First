@@ -21,7 +21,7 @@ public class DotComBust {
 
         for (DotCom dotComToSet : dotComsList){
             ArrayList<String> newLocation = helper.placeDotCom(3);
-            dotComToSet.setLocatonCells(newLocation);
+            dotComToSet.setLocationCells(newLocation);
         }
     }
     private void startPlaying() {
@@ -49,9 +49,9 @@ public class DotComBust {
     private void finishGame() {
         System.out.println("Все сайты ушли ко дну! Ваши акции в ауте.");
         if (numOfGuesses <=18) {
-            System.out.println("Это заняло у Вас" + numOfGuesses + "попыток");
+            System.out.println("Это заняло у Вас " + numOfGuesses + " попыток");
         } else {
-            System.out.println("Это заняло очень много" + numOfGuesses + "попыток");
+            System.out.println("Это заняло очень много - " + numOfGuesses + " попыток");
         }
     }
     public static void main (String[] args) {
